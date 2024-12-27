@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.Begin {
+  background-color: #fff7f2;
+  background-color: red;
+  width: 100%;
+  height: 85vh;
+  border-bottom: 3px solid white;
+  margin: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center;
+
+}
+
+.navbar {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.left-div{
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+
+}
+.middle-div{
+  height: 100%;
+  width: 33%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-div{
+  height: 100%;
+  width: 33%;
+  background-color: blue;
+}
