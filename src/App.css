@@ -5,7 +5,6 @@ body {
 
 .Begin {
   background-color: #fff7f2;
-  background-color: red;
   width: 100%;
   height: 85vh;
   border-bottom: 3px solid white;
@@ -26,22 +25,37 @@ body {
 }
 .left-div{
   height: 100%;
-  width: 33%;
+  width: 25%;
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
 
 }
 .middle-div{
   height: 100%;
-  width: 33%;
-  background-color: aqua;
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .right-div{
   height: 100%;
-  width: 33%;
-  background-color: blue;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  
+}
+.begining-p{
+ 
+  font-style: normal;
+  font-size: x-large;
+}
+.Begin{
+  font-family: "Afacad Flux", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.name-p{
+  font-size: 6rem;
+  line-height: 5.5rem;
+  margin-top: 20%;
 }
