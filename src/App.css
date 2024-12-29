@@ -41,13 +41,15 @@ body {
   height: 100%;
   width: 25%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   
 }
 .begining-p{
  
   font-style: normal;
-  font-size: x-large;
+  font-size: large;
+  margin-top: 20%;
 }
 .Begin{
   font-family: "Afacad Flux", serif;
@@ -55,7 +57,16 @@ body {
   font-weight: weight;
 }
 .name-p{
-  font-size: 6rem;
+    font-size: 6rem;
   line-height: 5.5rem;
-  margin-top: 20%;
+
+}
+.contact-begining{
+  border-top: 2px dotted black;
+  display: flex;
+  justify-content: center;
+}
+.icons{
+  font-size: 2rem;
+  margin: 5px;
 }

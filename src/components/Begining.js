@@ -1,6 +1,9 @@
 import React from 'react'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
-export default function Begining() {
+function Begining() {
     return (
         <div className='Begin'>
             <div className='left-div'>
@@ -14,19 +17,23 @@ export default function Begining() {
 
                     </p>
                     <div className='contact-begining'>
-                        
+                        <FaGithub className='icons' />
+                        <FaLinkedin className='icons' />
+                        <FaInstagram className='icons' />
+
                     </div>
                 </div>
             </div>
             <div className='middle-div'>
-                <img src='../photos/photo3.jpg' style={{ border:'3px solid #0e3865',background: 'black', height: '400px', width: '400px',borderRadius:'400px'  }}></img>
+                <img src='../photos/photo3.jpg' style={{ border: '3px solid #0e3865', background: 'black', height: '400px', width: '400px', borderRadius: '400px' }}></img>
 
             </div>
             <div className='right-div'>
-                <h1 className='name-p'>Mahmut <br/>Tunahan <br/>Aktaş</h1>
-                
+                <h1 className='name-p'>Mahmut <br />Tunahan <br />Aktaş</h1>
+                <p style={{color:'gray',fontSize:'2rem'}}>Full-stack Developer</p>
+
 
             </div>
         </div>
     )
-}
+} export default Begining;
