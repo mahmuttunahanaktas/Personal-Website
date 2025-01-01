@@ -9,6 +9,7 @@ export default function MainPage() {
         <Navbar></Navbar>
         <Begining></Begining>
         <Blog></Blog>
+         
 
 
 
