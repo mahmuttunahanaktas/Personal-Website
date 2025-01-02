@@ -10,9 +10,6 @@ export default function MainPage() {
         <Begining></Begining>
         <Blog></Blog>
          
-
-
-
     </div>
   )
 }
