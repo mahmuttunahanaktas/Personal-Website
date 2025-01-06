@@ -10,7 +10,7 @@ function Begining() {
             <div className='order-1 sm:order-3 w-full sm:w-1/4 flex flex-col items-center justify-center'>
                 <p className="m-5 mb-3 text-2xl">
                     <h1><strong>Merhaba! </strong></h1>
-                    Ben Tunahan. Öğrenmeyi tutkuyla seven bir öğrenci ve geleceğin yazılım dünyasında iz bırakmayı hedefleyen bir full-stack developer.
+                    Öğrenmeyi tutkuyla seven bir öğrenci ve geleceğin yazılım dünyasında iz bırakmayı hedefleyen bir full-stack developer.
                     Boş vakitlerimde kitapların büyülü dünyasında kaybolur, yeni hikayelere yelken açarım.
                     Her satır kodda, her sayfada yeni bir serüven bulurum.
                 </p>
@@ -24,7 +24,7 @@ function Begining() {
             </div>
 
             <div className='order-2 sm:order-1 w-full sm:w-1/4 flex justify-center items-center mb-5'>
-                <img src='../photos/photo3.jpg' className='rounded-full w-96 h-auto border-3 border-midnight'></img>
+                <img src='../photos/photo3.jpg' className='mb-6 rounded-full w-96 h-auto border-3 border-midnight'></img>
             </div>
 
             <div className='order-3 sm:order-2 w-full sm:w-1/4 flex flex-col items-center justify-center'>
