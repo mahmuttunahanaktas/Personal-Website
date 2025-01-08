@@ -19,7 +19,6 @@ function Begining() {
                     <FaGithub className='text-5xl m-1 hover:text-gray-500 cursor-pointer' />
                     <FaLinkedin className='text-5xl m-1 cursor-pointer hover:text-gray-500' />
                     <FaInstagram className='text-5xl m-1 cursor-pointer hover:text-gray-500' />
-
                 </div>
             </div>
 
