@@ -7,11 +7,9 @@ import Footer from './Footer'
 export default function MainPage() {
   return (
     <div>
-        <Navbar></Navbar>
         <Begining></Begining>
-        <Blog></Blog>
         <NelerYaptik></NelerYaptik>
-        <Footer></Footer>
+     
          
     </div>
   )

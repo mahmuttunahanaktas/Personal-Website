@@ -15,6 +15,7 @@ export default function Navbar() {
         <p className='text-xl'>Projelerim</p>
         <p className='text-xl'>Başarılar</p>
         <p className='text-xl'>İletişim</p>
+        
       </div>
 
     </nav>
