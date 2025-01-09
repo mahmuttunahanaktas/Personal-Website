@@ -18,9 +18,6 @@ export default function Blog() {
               Veniam quis occaecat commodo nostrud id ullamco esse occaecat magna ipsum voluptate non nisi sunt. Est in quis laborum anim aute exercitation ea ad culpa ad. Culpa reprehenderit ipsum id ipsum fugiat eiusmod laboris. Dolore pariatur irure velit elit excepteur excepteur nisi nostrud. Id ex esse labore ad id dolor amet cillum incididunt.
             </p>
           </div>
-
-
-
         </div>
       </div>
       <div className='flex w-full h-screen bg-white'>
