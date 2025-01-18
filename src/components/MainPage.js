@@ -10,7 +10,7 @@ export default function MainPage() {
       {
         //<Begining></Begining>
         //<NelerYaptik></NelerYaptik>
-        //tasarımı baştan aşşağı değiş, tolkien'in harper collins basım kitaplarından esinlenebilirsin o renk tonlarını kullanabilirsin, tamamen özgün bir tasarım yap düşün.
+        // tamara ile aynı birebir aynı olan tasarımları sil, beginingi tamamen değiş ama merhaba! ile başlayan paragrafı silme, onun için başka bir şey bul contenti aynı olsun, sitenin arka plan rengini de farklı bir ton bul.
       }
 
 
