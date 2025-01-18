@@ -10,6 +10,7 @@ export default function MainPage() {
       {
         //<Begining></Begining>
         //<NelerYaptik></NelerYaptik>
+        //tasarımı baştan aşşağı değiş, tolkien'in harper collins basım kitaplarından esinlenebilirsin o renk tonlarını kullanabilirsin, tamamen özgün bir tasarım yap düşün.
       }
 
 
