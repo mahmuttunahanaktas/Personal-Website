@@ -17,11 +17,11 @@ export default function Footer() {
         </div>
       </div>
       <div className='flex justify-center gap-10 text-white m-9'>
-        <p className='text-xl cursor-pointer hover:border-b-2'>AnaSayfa</p>
-        <p className='text-xl cursor-pointer hover:border-b-2'>Hakkımda</p>
-        <p className='text-xl cursor-pointer hover:border-b-2'>Projelerim</p>
-        <p className='text-xl cursor-pointer hover:border-b-2'>Başarılar</p>
-        <p className='text-xl cursor-pointer hover:border-b-2'>İletişim</p>
+        <p className='text-xl cursor-pointer hover:text-gray-400 '>AnaSayfa</p>
+        <p className='text-xl cursor-pointer hover:text-gray-400 '>Hakkımda</p>
+        <p className='text-xl cursor-pointer hover:text-gray-400 '>Projelerim</p>
+        <p className='text-xl cursor-pointer hover:text-gray-400 '>Başarılar</p>
+        <p className='text-xl cursor-pointer hover:text-gray-400 '>İletişim</p>
       </div>
       <div className="text-center">
         <p >Mahmut Tunahan Aktaş tarafından geliştirildi.</p>

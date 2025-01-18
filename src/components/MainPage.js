@@ -7,10 +7,13 @@ import Footer from './Footer'
 export default function MainPage() {
   return (
     <div>
-        <Begining></Begining>
-        <NelerYaptik></NelerYaptik>
-     
-         
+      {
+        //<Begining></Begining>
+        //<NelerYaptik></NelerYaptik>
+      }
+
+
+
     </div>
   )
 }

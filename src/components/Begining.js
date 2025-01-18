@@ -22,7 +22,7 @@ function Begining() {
                 </div>
             </div>
             <div className='order-2 sm:order-1 w-full sm:w-1/4 flex justify-center items-center mb-5'>
-                <img src='../photos/photo3.jpg' className='mb-6 rounded-full w-96 h-auto border-3 border-midnight'></img>
+                <img src='../photos/photo3.jpg' className='mb-6 rounded-full w-96 h-auto border-1 border-yellow-500'></img>
             </div>
             <div className='order-3 sm:order-2 w-full sm:w-1/4 flex flex-col items-center justify-center'>
                 <h1 className='text-8xl'>Mahmut <br />Tunahan <br />Aktaş</h1>
