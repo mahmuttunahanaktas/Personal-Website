@@ -28,6 +28,7 @@ function Begining() {
                 <h1 className='text-8xl'>Mahmut <br />Tunahan <br />Aktaş</h1>
                 <p className='text-gray-500 text-xl'>- Full-stack Developer - </p>
             </div>
+          
         </div>
     )
 } export default Begining;

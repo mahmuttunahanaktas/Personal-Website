@@ -34,7 +34,7 @@ export default function Blog() {
       </div>
 
       <div className='bg-white w-full h-auto p-2 m-0 block justify-center items-center mt-3'>
-        <p className='baslik font-medium text-2xl text-center m-[5%] mx-[20%]'>Yazılım geliştirmede, kararlılıkla öğrenmeye ve yeniliklere adapte olmaya odaklanıyorum. Yeni teknolojiler keşfetmek ve projelerimde uygulamak benim için bir tutku.<strong style={{ textDecoration: 'underline' }}> İşte bildiğim yazılım dilleri ve aşina olduğum teknolojiler</strong></p>
+        <p className='baslik font-medium text-2xl text-center m-[5%] mx-[20%]'>Yazılım geliştirmede, kararlılıkla öğrenmeye ve yeniliklere adapte olmaya odaklanıyorum. Yeni teknolojiler keşfetmek ve projelerimde uygulamak benim için bir tutku.<strong style={{ textDecoration: 'underline' }}>İşte bildiğim yazılım dilleri ve aşina olduğum teknolojiler</strong></p>
         <div className='flex justify-center gap-4 bg-white m-3 p-2 rounded-xl shadow-xl border-1'>
 
 

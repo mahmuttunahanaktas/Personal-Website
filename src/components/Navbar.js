@@ -1,23 +1,47 @@
 import React from 'react'
+import { Navigate, useNavigate } from 'react-router-dom';
 import { FaCode } from "react-icons/fa";
 
 export default function Navbar() {
-  const logo= "<Tuna/>";
+
+  const navigate = useNavigate();
+
+  function mainpage() {
+    navigate("/");
+  };
+  function aboutpage() {
+    navigate("/Blog");
+  };
+
+  function projectpage() {
+    navigate("/MyProjects");
+  };
+  function basarilarpage() {
+    navigate("/Basarilar");
+  };
+
+  function iletisimpage() {
+    navigate("/Iletisim");
+  };
+
+
+  const logo = "<Tuna/>";
 
   return (
     <nav className='fixed top-0 left-0 w-full shadow-md flex justify-between items-center rounded-bottom-5 bg-white z-50'>
 
       <div className='flex items-center m-2'>
-        
-       <h1 className='asd'>{logo}</h1>
+
+       
+        <img src='../photos/photo4.png'  onClick={() => mainpage()} className='cursor-pointer ml-4 w-24 h-auto'></img>  <h1 onClick={() => mainpage()} className='asd cursor-pointer ml-4 text-2xl'>Mahmut Tunahan Aktaş</h1>
       </div>
       <div className='flex items-center justify-center m-4 gap-x-8'>
-        <p className='text-xl '>AnaSayfa</p>
-        <p className='text-xl '>Hakkımda</p>
-        <p className='text-xl '>Projelerim</p>
-        <p className='text-xl '>Başarılar</p>
-        <p className='text-xl '>İletişim</p>
-        
+        <p onClick={() => mainpage()} className='text-xl cursor-pointer'>AnaSayfa</p>
+        <p onClick={() => aboutpage()} className='text-xl cursor-pointer'>Hakkımda</p>
+        <p onClick={()=> projectpage()} className='text-xl cursor-pointer'>Projelerim</p>
+        <p onClick={()=> basarilarpage()} className='text-xl cursor-pointer'>Başarılar</p>
+        <p onClick={()=> iletisimpage()} className='text-xl cursor-pointer'>İletişim</p>
+
       </div>
 
     </nav>
