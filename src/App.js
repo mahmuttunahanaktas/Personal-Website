@@ -13,7 +13,7 @@ import Iletisim from './components/Iletisim';
 function App() {
   return (
  
-    <div>sa
+    <div>sa as
 
 {
      // <Router>
