@@ -7,14 +7,8 @@ import Footer from './Footer'
 export default function MainPage() {
   return (
     <div>
-      {
-        //<Begining></Begining>
-        //<NelerYaptik></NelerYaptik>
-        // tamara ile aynı birebir aynı olan tasarımları sil, beginingi tamamen değiş ama merhaba! ile başlayan paragrafı silme, onun için başka bir şey bul contenti aynı olsun, sitenin arka plan rengini de farklı bir ton bul.
-      }
-
-
-
+        <Begining></Begining>
+        <NelerYaptik></NelerYaptik>
     </div>
   )
 }

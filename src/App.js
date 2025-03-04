@@ -12,26 +12,17 @@ import Iletisim from './components/Iletisim';
 
 function App() {
   return (
- 
-    <div>sa as
-
-{
-     // <Router>
-   //   <Navbar />
-     // <Routes>
-      //  <Route path="/" element={<MainPage />} />
-        //<Route path="/Blog" element={<Blog />} />
-        //<Route path="/MyProjects" element={<Projects />} />
-        //<Route path="/Basarilar" element={<Basarilar />} />
-        //<Route path="/Iletisim" element={<Iletisim />} />
-
-   //   </Routes>
-    //  <Footer/>
-   // </Router> 
-        
-    }
-    </div>
-   
+     <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/MyProjects" element={<Projects />} />
+        <Route path="/Basarilar" element={<Basarilar />} />
+        <Route path="/Iletisim" element={<Iletisim />} />
+      </Routes>
+      <Footer/>
+    </Router>  
   );
 }
 
