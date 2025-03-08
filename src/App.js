@@ -9,7 +9,6 @@ import Projects from './components/Projects';
 import Basarilar from './components/Basarilar';
 import Iletisim from './components/Iletisim';
 
-
 function App() {
   return (
      <Router>
@@ -25,5 +24,4 @@ function App() {
     </Router>  
   );
 }
-
 export default App;
